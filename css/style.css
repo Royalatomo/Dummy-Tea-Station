@@ -1,0 +1,141 @@
+/* Hero Element - Div */
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    min-height: 26rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/main-bcg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Hero Element Text Content - Main*/
+.main-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: var(--lineHeight);
+    letter-spacing: 5px;
+}
+
+/* Hero Element Text Content - Subtitle*/
+.main-content .subtitle{
+    color: var(--greenColor);
+    font-size: var(--fontSize);
+    letter-spacing: 9px;
+    font-family: var(--headingFont);
+    animation-name: subtitleAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+
+/* Hero Element Text Content - Title*/
+.main-content .title{
+    margin-top: 2.5rem;
+    font-size: 3rem;;
+    color: white;
+    line-height: 1.3;
+    letter-spacing: 8px;
+    animation-name: titleAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+
+/* Hero Element Text Content - Explore Button*/
+.main-content .explore{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    background: var(--greenColor);
+    padding: 1.2rem 1.5rem;
+    display: inline-block;
+    margin-top: 2rem;
+    letter-spacing: 8px;
+    outline: 0.2rem solid var(--greenColor);
+    outline-offset: 4px;
+    animation-name: show;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+.main-content .explore:hover{
+    cursor: pointer;
+}
+
+
+/* Hero Element Divider*/
+.divider{
+    background-image: linear-gradient(
+        to left,
+        var(--greenColor),
+        #fca311,
+        var(--greenColor)
+      );
+    height: 0.5rem;
+}
+
+
+/* Animation - Title */
+@keyframes titleAnimation {
+    0%{
+        transform: translateX(-110%);
+    }
+    50%{
+        transform: translateX(40%);
+    }
+    75%{
+        transform: translateX(-10%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+/* Animation - SubTitle */
+@keyframes subtitleAnimation{
+    0%{
+        transform: translateX(110%);
+    }
+    50%{
+        transform: translateX(-40%);
+    }
+    75%{
+        transform: translateX(10%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+/* Animation - Explore Button */
+@keyframes show{
+    0%{
+        transform: scale(2);
+        opacity: 0.1;
+    }
+    25%{
+        transform: scale(1.6);
+        opacity: 0.3;
+    }
+    50%{
+        transform: scale(1.4);
+        opacity: 0.6;
+    }
+    75%{
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}

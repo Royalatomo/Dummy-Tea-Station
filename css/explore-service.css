@@ -1,0 +1,112 @@
+/* Service Area - Main Div */
+.explore-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 3rem;
+    padding-bottom: 0;
+    background-color: #e5e5e5;
+}
+
+
+/* Service Text Container - Section Heading */
+.head-info .area-heading{
+    text-align: center;
+    font-family: var(--headingFont);
+    color: var(--greenColor);
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+
+/* Service Text Container - Heading */
+.head-info .area-msg{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3a3e3b;
+}
+
+
+/* Service Item Container */
+.services-box{
+    padding: 4rem 0;
+    max-width: 1170px;
+}
+
+/* Service Item Container - Single Item */
+.services-box .service{
+    border: 0.3rem solid var(--greenColor);
+    margin: 2rem 0;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    box-shadow: 5px 5px 2px 0px rgb(0 0 0 / 75%);
+}
+
+
+/* Service Single Item - Image */
+.services-box .service .service-img{
+    height: 60%;
+}
+.services-box .service .service-img img{
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    display: block;
+}
+
+/* Service Single Item - Text Section (logo, title, button) */
+.services-box .service .service-info{
+    padding: 3rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--greenColor);
+    color: white;
+    border-radius: 0 0 0.5rem 0.5rem;
+    position: relative;
+    height: 40%;
+}
+
+/* Service Single Item - Service Logo */
+.services-box .service .service-info .service-logo{
+    font-size: 2rem;
+    background-color: #fca311;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0.25rem 0.6rem;
+    border: 0.2rem solid var(--greenColor);
+    color: #3a3e3b;
+    position: absolute;
+    bottom: 80%;
+    box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 75%);
+}
+
+/* Service Single Item - Service Title */
+.services-box .service .service-info .msg{
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+/* Service Single Item - Read More Button */
+.services-box .service .service-info .read-more{
+    padding: 0.4rem 2rem;
+    background-color: white;
+    color: var(--greenColor);
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: 0.3rem solid white;
+    transition: var(--transition);
+}
+.services-box .service .service-info .read-more:hover{
+    background-color: var(--greenColor);
+    color: white;
+    cursor: pointer;
+}

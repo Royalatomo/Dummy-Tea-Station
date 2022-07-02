@@ -1,0 +1,57 @@
+/* Skills - Main Div */
+.skills{
+    width: 100%;
+}
+
+
+/* skills - Items */
+.skills .skill-item{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 20%;
+    color: #3a3e3b;
+    transition: background-color 0.3s linear;
+    background-color: #e5e5e5;
+}
+.skills .skill-item:hover{
+    background-color: var(--greenColor);
+}
+
+
+/* Skill Single Item - Icons */
+.skill-item .icon{
+    font-size: 2.5rem;
+    color: #3a3e3b;
+    margin-top: 2.5rem;
+    transition: var(--transition);
+}
+.skills .skill-item:hover .icon{
+    transform: translateY(-0.5rem);
+}
+
+/* Skill Single Item - Heading */
+.skill-item .title{
+    font-size: 0.9rem;
+    color: var(--greenColor);
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    max-width: 13rem;
+    margin: var(--marginCenter);
+    margin-top: 1.2rem;
+    transition: var(--transition);
+}
+
+/* Skill Single Item - Heading Color */
+.skills .skill-item:hover .title{
+    color: white;
+}
+
+/* Skill Single Item - Description */
+.skill-item .msg{
+    margin: var(--marginCenter);
+    line-height: var(--lineHeight);
+    font-size: 16px;
+    max-width: 13rem;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+}

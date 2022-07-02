@@ -1,0 +1,123 @@
+/* Media Querries */
+
+
+/* minimum - 576px or more  */
+@media screen and (min-width: 576px) {
+
+    /* Skills Area */
+    .skills .skill-item{
+        float: left;
+        width: 50%;
+        padding: 1rem 0;
+    }
+    .skill-item{
+        padding-bottom: 1rem;
+    }
+    .skill-item .msg{
+        margin-bottom: 1rem;
+    }
+
+    /* NavBar Area */
+    .navigation{
+        width: 80vw;
+        max-width: 15rem;
+    }
+
+}
+
+/* minimum - 770px or more  */
+@media screen and (min-width: 770px){
+    
+    /* Product Area */
+    .product .product-box .product-item{
+        width: 45%;
+        float: left;
+        margin: 2%;
+    }
+    
+    /* Explore-Service Area */
+    .services-box .service{
+        float: left;
+        width: 45%;
+        margin-right: 4%;
+    }
+}
+
+/* minimum - 900px or more  */
+@media screen and (min-width: 900px){
+
+    /* About Area */
+    .about .center-div{
+        flex-direction: row;
+    }
+    .about .about-img{
+        width: 50%;
+        max-width: 36rem;
+        margin: 0 20px 0 auto;
+    }
+    .about .info-msg{
+        max-width: 27rem;
+        margin: 0 auto 0 0;
+    }
+}
+
+
+/* minimum - 1000px or more  */
+@media screen and (min-width: 1000px){
+
+    /* Product Area */
+    .product .product-box .product-item{
+        padding: 2rem 2rem 2rem 0;
+        width: 33.3%;
+        margin: 0;
+    }
+
+    /* Explore-Service Area */
+    .services-box .service{
+        float: left;
+        width: 29.3%;
+        margin-right: 4%;
+    }
+
+    /* Form Area */
+    .form-area .section-center{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .form-fields{
+        min-width: 28rem;
+    }
+}
+
+
+/* minimum - 1200px or more  */
+@media screen and (min-width: 1200px) {
+
+    /* Skills Area */
+    .skills .skill-item{
+        width: 25%;
+        padding: 0 0;
+        padding-bottom: 1rem;
+    }
+
+    /* Navigation Area */
+    .navigation{
+        width: 20vw;
+    }
+
+    /* Product Area */
+    .product{
+        padding: 4rem 5rem;
+    }
+    .product .info-msg{
+        width: 30%;
+    }
+    .product .product-box{
+        width: 70%;
+    }
+    .product .center-div{
+        flex-direction: row;
+        align-items: center;
+    }
+}

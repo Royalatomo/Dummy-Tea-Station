@@ -1,0 +1,41 @@
+/* Footer Area - Main Div */
+.footer{
+    clear: both;
+    padding: 4rem 0;
+    background-color: hsl(135, 3%, 24%);
+    text-align: center;
+}
+
+
+/* Footer (Icons, Text) - Container */
+.footer .container-items{
+    width: 80vw;
+    margin: var(--marginCenter);
+}
+
+
+/* Footer Icons */
+.footer .social-icons{
+    font-size: 1.5rem;
+    color: white;
+}
+.footer .social-icons:hover{
+    cursor: pointer;
+}
+.footer .social-icons a{
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+.footer .social-icons a:visited{
+    color: white;
+}
+
+
+/* Footer Message */
+.footer .msg{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin: 1rem auto;
+    font-size: 0.85rem;
+}

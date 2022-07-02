@@ -1,0 +1,32 @@
+
+/* Font Family Importing */
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel");
+
+
+/* Clearing Default Browser Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    width: 100vw;
+    font-family: "Catamaran", sans-serif;
+    overflow-x: hidden;
+    
+    /* variables */
+    --headingFont: "Grand Hotel", cursive;
+    --greenColor: #668a3d;
+    --transition: all 0.3s linear;
+    --fontSize: 2rem;
+    --lineHeight: 1.5;
+    --marginCenter: 0 auto;
+}
+
+
+/* Targeting In Whole Project */
+a{
+    text-decoration: none;
+}

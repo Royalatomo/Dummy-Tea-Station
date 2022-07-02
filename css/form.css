@@ -1,0 +1,86 @@
+/* Form Area - Main Div */
+.form-area{
+    padding-top: 2rem;
+}
+
+
+/* Form (text, form) - Container */
+.form-area .section-center{
+    padding: 4rem;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+
+/* Form Text Container */
+.form-info-data .info-data{
+    padding-bottom: 3rem;
+    letter-spacing: 0.65rem;
+}
+
+/* Form Text Container - Text Icons */
+.form-info-data .info-data .info-logo{
+    display: inline-block;
+    color: var(--greenColor);
+    font-size: 1.6rem;
+}
+
+/* Form Text Container - Text Headings */
+.form-info-data .info-data .info-heading{
+    font-size: 1.6rem;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: var(--headingFont);
+    color: var(--greenColor);
+}
+
+/* Form Text Container - Text Descrpition */
+.form-info-data .info-data .info-example{
+    letter-spacing: 0;
+    color: #3a3e3b;
+}
+
+
+/* Form Fields Container */
+.form-fields{
+    margin-top: 1rem;
+}
+
+/* Form Fields Container - Input Placeholders */
+.form-fields .main-form .form-control::placeholder{
+    color: var(--greenColor);
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+}
+
+/* Form Fields Container - Input boxes */
+.form-fields .main-form .form-control{
+    border: none;
+    display: block;
+    border-bottom: 0.2rem solid var(--greenColor);
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+.form-fields .main-form .form-control:focus{
+    outline: none;
+}
+
+/* Form Fields Container - Submit Button */
+.form-fields .main-form .form-submit{
+    text-transform: uppercase;
+    background: var(--greenColor);
+    border: none;
+    padding: 0.8rem 1rem;
+    border: 0.1rem solid black;
+    outline: 0.2rem solid var(--greenColor);
+    outline-offset: 0.3rem;
+    margin-bottom: 4.5rem;
+    margin-top: 2rem;
+    transition: var(--transition);
+}
+.form-fields .main-form .form-submit:hover{
+    opacity: 0.7;
+    color: white;
+    cursor: pointer;
+}

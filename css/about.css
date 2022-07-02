@@ -1,0 +1,88 @@
+/* About (Image, Text) - Container */
+.about .center-div{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1rem;
+}
+
+
+/* About (Text, Image) Containers */
+.about .about-img, .about .info-msg{
+    width: 95%;
+    padding: 2rem;
+}
+
+
+/* About Image Container - Image */
+.about .img{
+    width: 100%;
+    outline: 0.5rem solid var(--greenColor);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: var(--transition);
+    background-color: var(--greenColor);
+}
+.about img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: var(--transition);
+}
+.about .img:hover img{
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+
+
+/* About Text Container */
+.about .info-msg{
+    padding-right: 1rem;
+}
+
+/* About Text Container - Section Heading */
+.about .info-msg .section-heading{
+    font-family: var(--headingFont);
+    font-size: var(--fontSize);
+    color: var(--greenColor);
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+
+/* About Text Container - Brand Name */
+.about .info-msg .heading{
+    font-size: var(--fontSize);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3a3e3b;
+}
+
+/* About Text Container - Section Description */
+.about .info-msg .msg-box{
+    color: #3a3e3b;
+}
+
+/* About Text Container - Single Message Line */
+.about .info-msg .msg-box .msg{
+    margin: 1rem 0;
+}
+
+/* About Text Container - Learn More Button */
+.about .learn-more{
+    text-transform: uppercase;
+    color: rgb(49, 49, 49);
+    background: var(--greenColor);
+    font-weight: bold;
+    padding: 0.8rem 1.2rem;
+    outline: 0.2rem solid var(--greenColor);
+    outline-offset: 4px;
+    display: inline-block;
+    margin-top: 2rem;
+    transition: var(--transition);
+}
+.about .learn-more:hover{
+    opacity: 0.7;
+    color: white;
+}
